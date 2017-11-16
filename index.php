@@ -1,9 +1,8 @@
 <?php
-  session_start();
-  require_once "./models/functions.php";
-  require_once "./models/global.php";
+  require "./models/functions.php";
+  require "./models/global.php";
 
-  require_once  "./controller/router.php";
+  require  "./controller/router.php";
 
-  require "./views/master.php";
+  include "./views/master.php";
 ?>

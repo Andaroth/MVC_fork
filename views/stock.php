@@ -9,7 +9,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+      </div>
     </div>
 </header>
 
@@ -22,15 +22,13 @@
     $descr = ucfirst($thisQuery["descr"]);
     $categ = ucfirst($thisQuery["categ"]);
     ?>
-<section class="content-section stockitem text-center">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6 mx-auto">
-<?php
-    echo "<h2>".$title."</h2>"."<p>".$descr."</p>"."<small>".$categ."</small>";
-?>
+    <section class="content-section stockitem text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <?= "<h2>".$title."</h2>"."<p>".$descr."</p>"."<small>".$categ."</small>" ?>
+          </div>
         </div>
       </div>
-    </div>
-</section>
+    </section>
 <?php } ?>
