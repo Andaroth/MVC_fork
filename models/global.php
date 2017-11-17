@@ -4,8 +4,8 @@
   $dbuser = "dmotte";
   $dbpass = "dmotte1";
 
-  require M . "functions.php";
-  require C . "fromDB.php";
+  require_once M . "functions.php";
+  require_once C . "fromDB.php";
 
   $getStock = $db->query("SELECT * FROM stock");
   $getCar 

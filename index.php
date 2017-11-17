@@ -3,10 +3,9 @@
   define ("C", "./controller/");
   define ("V", "./views/");
 
-  require M . "global.php";
+  require_once M . "global.php";
 
-  require C . "router.php";
-  require C . "getstock.php";
+  require_once C . "router.php";
 
   include V . "master.php";
 ?>
