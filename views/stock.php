@@ -12,4 +12,4 @@
       </div>
     </div>
 </header>
-<?php include C . "getostock.php"; ?>
+<?php include C . "getstock.php"; ?>
